@@ -9,7 +9,7 @@ A standout feature of the platform is its integration of **Synaptic**, a powerfu
 
 With Athletes-Connect-System, the goal is to create a hub where athletes and sports fans can easily navigate the world of sports events. The platform not only offers practical tools for participation and event management but also enhances the user experience through AI-powered features and real-time location-based services, making it a unique solution for both amateur and professional athletes
 ## Features
-***AI-Powered Match Prediction with Synaptic***
+- **AI-Powered Match Prediction with Synaptic**
 One of the key features of Athletes-Connect-System is the integration of Synaptic, a neural network library, to predict match outcomes. The process starts by training a model using historical team statistics. This is done by running the command ts-node src/utils/trainModel.ts, which processes and refines the data. Once the model is trained, it can be used in a practical function that takes real-time user input (team statistics) and predicts the likely winner of an upcoming match. This AI-driven prediction system empowers users to make data-backed decisions, enhancing their sports experience with intelligent insights.
- ***GeoJSON for Location-Based Stadium Recommendations***
+ - **GeoJSON for Location-Based Stadium Recommendations**
 Another core feature is the use of GeoJSON technology to help users find the nearest stadium to their location. By retrieving the user's geographical coordinates, the system uses GeoJSON to calculate the closest stadium and return the relevant details. This feature ensures that athletes can easily locate and navigate to the nearest sporting events, providing a seamless and convenient experience based on real-time location data.
