@@ -12,4 +12,20 @@ With Athletes-Connect-System, the goal is to create a hub where athletes and spo
 - **AI-Powered Match Prediction with Synaptic**
 One of the key features of Athletes-Connect-System is the integration of **Synaptic**, a **neural network library**, to predict match outcomes. The process starts by training a model using historical team statistics. This is done by running the command `ts-node src/utils/trainModel.ts`, which processes and refines the data. Once the model is trained, it can be used in a practical function that takes real-time user input (team statistics) and predicts the likely winner of an upcoming match. This AI-driven prediction system empowers users to make data-backed decisions, enhancing their sports experience with intelligent insights.
  - **GeoJSON for Location-Based Stadium Recommendations**
-Another core feature is the use of GeoJSON technology to help users find the nearest stadium to their location. By retrieving the user's geographical coordinates, the system uses GeoJSON to calculate the closest stadium and return the relevant details. This feature ensures that athletes can easily locate and navigate to the nearest sporting events, providing a seamless and convenient experience based on real-time location data.
+Another core feature is the use of **GeoJSON** technology to help users **find the nearest stadium to their location**. By retrieving the user's geographical coordinates, the system uses GeoJSON to calculate the closest stadium and return the relevant details. This feature ensures that athletes can easily locate and navigate to the nearest sporting events, providing a seamless and convenient experience based on real-time location data.
+- **User Authentication**
+A secure and streamlined sign-in and sign-up process enables athletes to easily join the community, with a personalized experience for managing events, bookings, and teams.
+Booking Management
+Users can create, update, cancel, and track their bookings while filtering by payment or status and checking stadium availability for events.
+- **Stadium Management**
+Stadiums can be added, updated, searched, and reserved, with a feature to find nearby stadiums based on location and sport type.
+- **Event Management**
+Organizers can easily create, update, delete events, and distribute teams for tournaments, simplifying event coordination.
+- **Match Management**
+This feature allows for scheduling and managing matches, retrieving match results, and predicting winners based on team statistics using AI.
+- **Review System**
+Users can leave, view, and delete reviews for events, teams, and stadiums, with quick access to the most recent reviews.
+- **Team Management**
+Athletes can manage teams by creating, updating, and deleting teams, adding/removing players, changing captains, and tracking match results.
+- **Tournament Management**
+Organizers can create, update, and delete tournaments, view tournament details, set winners, and manage tournament status with ease.
