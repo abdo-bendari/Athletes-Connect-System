@@ -1,1 +1,5 @@
-# Athletes-Connect-System
+# About
+
+Athletes-Connect-System is a cutting-edge platform designed to simplify the connection between athletes, teams, and sports events. It provides a seamless user experience, enabling athletes to easily discover and participate in sporting events, join teams, and book stadiums for their activities. By bringing athletes together in one unified space, the system fosters collaboration and interaction within the sports community.
+The platform integrates advanced technologies to enhance its functionality. GeoJSON is utilized for precise location tracking, helping users find nearby events and stadiums with ease. Additionally, the system uses the Synaptic neural network library to create a function that analyzes team statistics and predicts match winners using artificial intelligence. By processing historical performance data, the system makes accurate predictions, allowing users to stay informed and make better decisions when following events.
+With these innovative technologies at its core, Athletes-Connect-System not only connects athletes with their peers but also enhances their overall experience by offering smart features powered by AI and real-time location data
