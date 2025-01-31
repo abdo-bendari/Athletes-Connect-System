@@ -19,6 +19,8 @@ Booking Management
 Users can create, update, cancel, and track their bookings while filtering by payment or status and checking stadium availability for events.
 - **Stadium Management**
 Stadiums can be added, updated, searched, and reserved, with a feature to find nearby stadiums based on location and sport type.
+- **Booking Management**
+Users can create, update, cancel, and track bookings, along with checking availability and filtering by payment or status.
 - **Event Management**
 Organizers can easily create, update, delete events, and distribute teams for tournaments, simplifying event coordination.
 - **Match Management**
@@ -29,3 +31,9 @@ Users can leave, view, and delete reviews for events, teams, and stadiums, with 
 Athletes can manage teams by creating, updating, and deleting teams, adding/removing players, changing captains, and tracking match results.
 - **Tournament Management**
 Organizers can create, update, and delete tournaments, view tournament details, set winners, and manage tournament status with ease.
+
+## Using
+
+The platform is built with the following technologies:
+
+<ul> <li><strong>bcrypt</strong>: A library for securely hashing user passwords before storing them in the database, ensuring the protection of user data.</li> <li><strong>CORS</strong>: Middleware for enabling secure cross-origin requests between the client and the backend API, ensuring proper security during communication.</li> <li><strong>dotenv</strong>: Loads environment variables from a .env file, ensuring sensitive information like API keys and database credentials remain secure.</li> <li><strong>Express.js</strong>: A lightweight web framework for building RESTful APIs and managing HTTP requests and responses, helping to structure the application.</li> <li><strong>jsonwebtoken (JWT)</strong>: Used for securing user authentication and ensuring that only authorized users can access protected routes and services.</li> <li><strong>mongoose</strong>: An Object Data Modeling (ODM) library for MongoDB and Node.js. Mongoose simplifies database interactions by defining schemas and models and offering powerful query capabilities.</li> <li><strong>morgan</strong>: HTTP request logger middleware for Node.js, used to log request details, helping with debugging and monitoring.</li> <li><strong>nodemon</strong>: A development tool that automatically restarts the server when file changes are detected, improving the development workflow.</li> <li><strong>rimraf</strong>: A tool for deleting files and directories, particularly used for cleaning up the project during the build process.</li> <li><strong>synaptic</strong>: A neural network library used to power the AI-driven match prediction feature, utilizing team statistics to predict match outcomes.</li> </ul>
